@@ -1,0 +1,4 @@
+ignore = F401, W292 ,I101
+max-complexity = 10
+max_line_length = 79
+exclude = tests, setup.py, __init__.py
