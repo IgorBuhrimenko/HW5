@@ -13,14 +13,11 @@ def show_student(request):
 
 def show_lector(request):
     lecturers = Lecturer.objects.all().order_by()
-    return render(request, 'main/lector.html', {'title': 'Преподователи','lecturers': lecturers})
+    return render(request, 'main/lector.html', {'title': 'Преподователи', 'lecturers': lecturers})
 
 
 def show_group(request):
     groups = Group.objects.all().order_by()
-    print(groups)
     return render(request, 'main/group.html', {'title': 'Курсы', 'groups': groups})
 
 
-
-# Create your views here.

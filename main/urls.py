@@ -8,3 +8,5 @@ urlpatterns = [
     path('lector', views.show_lector, name='lector'),
     path('group', views.show_group, name='group')
 ]
+
+
