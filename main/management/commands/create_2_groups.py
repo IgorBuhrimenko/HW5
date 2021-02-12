@@ -12,7 +12,7 @@ class Command(BaseCommand):
         number_of_students = 10
         number_of_groups = 2
 
-        # Create new groups:
+
         for i in range(number_of_groups):
 
 
